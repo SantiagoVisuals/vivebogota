@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Mapa - ViveBogota</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="maps-container">
+        <div class="maps-maps">
+          <div class="maps-frame45">
+            <div class="maps-frame48">
+              <div class="maps-frame38">
+                <div class="maps-navbar">
+                  <div class="maps-logo1">
+                    <span class="maps-text10">Vive Bogotá</span>
+                    <img
+                      src="public/external/dot3417-uldf-200h.png"
+                      alt="Dot3417"
+                      class="maps-dot1"
+                    />
+                  </div>
+                  <div class="maps-menu">
+                    <div class="maps-home">
+                      <span class="maps-text11">
+                        <a href="../index.html" style="text-decoration: none; color: inherit;">Inicio</a>
+                      </span>
+                    </div>
+                    <div class="maps-frame34">
+                      <img
+                        src="public/external/rectangle53417-bycl-200h.png"
+                        alt="Rectangle53417"
+                        class="maps-rectangle5"
+                      />
+                      <span class="maps-text12">Mapa</span>
+                    </div>
+                    <span class="maps-text13">
+                      <a href="../Events/events.html" style="text-decoration: none; color: inherit;">Eventos</a>
+                    </span>
+                    <span class="maps-text14">
+                      <a href="../Contact/index.html" style="text-decoration: none; color: inherit;">Contacto</a>
+                    </span>
+                  </div>
+                  <div class="maps-cta">
+                    <span class="maps-text15">
+                      <a href="../Login_Register/index.html" style="text-decoration: none; color: inherit;">Login</a>
+                    </span>
+                    <div class="maps-register">
+                      <span class="maps-text16">
+                        <a href="../Login_Register/register.html" style="text-decoration: none; color: inherit;">Registrate</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="maps-header">
+                <div class="maps-frame23">
+                  <div class="maps-search-selected">
+                    <div class="maps-fields">
+                      <img
+                        src="public/external/scopebox1757-54sr-200h.png"
+                        alt="scopebox1757"
+                        class="maps-scopebox"
+                      />
+                      <div class="maps-label">
+                        <span class="maps-text17">Museos</span>
+                      </div>
+                      <img
+                        src="public/external/icon1757-f8eo.svg"
+                        alt="icon1757"
+                        class="maps-icon1"
+                      />
+                    </div>
+                    <div class="maps-input">
+                      <div class="maps-selected">
+                        <img
+                          src="public/external/rectangle61757-z9g8-200h.png"
+                          alt="Rectangle61757"
+                          class="maps-rectangle6"
+                        />
+                        <span class="maps-text18">Usaquen</span>
+                        <img
+                          src="public/external/xcircle1757-11fb.svg"
+                          alt="xcircle1757"
+                          class="maps-xcircle"
+                        />
+                      </div>
+                    </div>
+                    <button class="maps-button">
+                      <img
+                        src="public/external/rectangle1758-spt7-200h.png"
+                        alt="Rectangle1758"
+                        class="maps-rectangle1"
+                      />
+                      <img
+                        src="public/external/search1758-7m7o.svg"
+                        alt="search1758"
+                        class="maps-search"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="maps-frame44">
+                <div class="maps-frame43">
+                  <div class="maps-frame42">
+                    <div class="maps-propertycardbig1">
+                      <img
+                        src="public/external/rectangle121761-utn8-300w.png"
+                        alt="Rectangle121761"
+                        class="maps-rectangle121"
+                      />
+                      <div class="maps-frame141">
+                        <span class="maps-text19">Galeria Santa Fe</span>
+                        <div class="maps-frame131">
+                          <div class="maps-frame121">
+                            <div class="maps-group1">
+                              <img
+                                src="public/external/star1762-w1fb.svg"
+                                alt="Star1762"
+                                class="maps-star1"
+                              />
+                            </div>
+                            <span class="maps-text20">4.8</span>
+                          </div>
+                          <span class="maps-text21">Mercedes Vito</span>
+                        </div>
+                        <div class="maps-frame101">
+                          <div class="maps-group341">
+                            <img
+                              src="public/external/ellipse21763-s2ve-200w.png"
+                              alt="Ellipse21763"
+                              class="maps-ellipse21"
+                            />
+                            <div class="maps-group331">
+                              <img
+                                src="public/external/vector1763-bj8n.svg"
+                                alt="Vector1763"
+                                class="maps-vector1"
+                              />
+                            </div>
+                          </div>
+                          <span class="maps-text22">Zona Entretenimiento</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="maps-propertycardbig2">
+                      <img
+                        src="public/external/rectangle121763-ek9j-300w.png"
+                        alt="Rectangle121763"
+                        class="maps-rectangle122"
+                      />
+                      <div class="maps-frame142">
+                        <span class="maps-text23">Museo de Bogotá</span>
+                        <div class="maps-frame132">
+                          <div class="maps-frame122">
+                            <div class="maps-group2">
+                              <img
+                                src="public/external/star1764-bors.svg"
+                                alt="Star1764"
+                                class="maps-star2"
+                              />
+                            </div>
+                            <span class="maps-text24">3.8</span>
+                          </div>
+                          <span class="maps-text25">Carrera 4, Bogota</span>
+                        </div>
+                        <div class="maps-frame102">
+                          <div class="maps-group342">
+                            <img
+                              src="public/external/ellipse21765-2obpi-200h.png"
+                              alt="Ellipse21765"
+                              class="maps-ellipse22"
+                            />
+                            <div class="maps-group332">
+                              <img
+                                src="public/external/frame1765-1rvk.svg"
+                                alt="Frame1765"
+                                class="maps-frame"
+                              />
+                            </div>
+                          </div>
+                          <span class="maps-text26">Zona Historica</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="maps-propertycardbig3">
+                      <img
+                        src="public/external/rectangle121765-gifd-300w.png"
+                        alt="Rectangle121765"
+                        class="maps-rectangle123"
+                      />
+                      <div class="maps-frame143">
+                        <span class="maps-text27">Cinemateca</span>
+                        <div class="maps-frame133">
+                          <div class="maps-frame123">
+                            <div class="maps-group3">
+                              <img
+                                src="public/external/star1766-d40w.svg"
+                                alt="Star1766"
+                                class="maps-star3"
+                              />
+                            </div>
+                            <span class="maps-text28">4.0</span>
+                          </div>
+                          <span class="maps-text29">Micentro el porvenir</span>
+                        </div>
+                        <div class="maps-frame103">
+                          <div class="maps-icon2">
+                            <img
+                              src="public/external/ellipse21767-mfd-200h.png"
+                              alt="Ellipse21767"
+                              class="maps-ellipse23"
+                            />
+                            <div class="maps-group35">
+                              <img
+                                src="public/external/vector1767-2qfp.svg"
+                                alt="Vector1767"
+                                class="maps-vector2"
+                              />
+                              <img
+                                src="public/external/ellipse31767-hgi5-200h.png"
+                                alt="Ellipse31767"
+                                class="maps-ellipse3"
+                              />
+                              <img
+                                src="public/external/ellipse41767-bgdw-200h.png"
+                                alt="Ellipse41767"
+                                class="maps-ellipse4"
+                              />
+                            </div>
+                          </div>
+                          <span class="maps-text30">Zona de Socializacion</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="maps-frame41">
+                    <span class="maps-text31">
+                      Lugares turisticos en Bogotá
+                    </span>
+                    <div class="maps-frame40">
+                      <div class="maps-free-cancellation">
+                        <span class="maps-text32">Gratis</span>
+                      </div>
+                      <div class="maps-frame39">
+                        <div class="maps-price">
+                          <span class="maps-text33">Precio</span>
+                        </div>
+                        <div class="maps-instant-book">
+                          <span class="maps-text34">Mas cercanos</span>
+                        </div>
+                        <img
+                          src="public/external/filtericon1768-rcp5.svg"
+                          alt="FilterIcon1768"
+                          class="maps-filter-icon"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="maps-frame37">
+                  <div class="maps-mapview">
+                    <img
+                      src="public/external/rectangle81759-ngvg-800w.png"
+                      alt="Rectangle81759"
+                      class="maps-rectangle8"
+                    />
+                    <img
+                      src="public/external/vector1759-fhjk.svg"
+                      alt="Vector1759"
+                      class="maps-vector3"
+                    />
+                    <div class="maps-mappin10">
+                      <div class="maps-mappin11">
+                        <div class="maps-default10">
+                          <img
+                            src="public/external/shapei176-d0zq.svg"
+                            alt="shapeI176"
+                            class="maps-shape10"
+                          />
+                          <span class="maps-text35">383K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin12">
+                        <div class="maps-default11">
+                          <img
+                            src="public/external/shapei176-73k.svg"
+                            alt="shapeI176"
+                            class="maps-shape11"
+                          />
+                          <span class="maps-text36">155K</span>
+                        </div>
+                        <div class="maps-active">
+                          <img
+                            src="public/external/shapei176-qsyv.svg"
+                            alt="shapeI176"
+                            class="maps-shape12"
+                          />
+                          <span class="maps-text37">155K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin13">
+                        <div class="maps-default12">
+                          <img
+                            src="public/external/shapei176-num9.svg"
+                            alt="shapeI176"
+                            class="maps-shape13"
+                          />
+                          <span class="maps-text38">98K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin14">
+                        <div class="maps-default13">
+                          <img
+                            src="public/external/shapei176-ng8.svg"
+                            alt="shapeI176"
+                            class="maps-shape14"
+                          />
+                          <span class="maps-text39">328K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin15">
+                        <div class="maps-default14">
+                          <img
+                            src="public/external/shapei176-mwje.svg"
+                            alt="shapeI176"
+                            class="maps-shape15"
+                          />
+                          <span class="maps-text40">128K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin16">
+                        <div class="maps-default15">
+                          <img
+                            src="public/external/shapei176-rbcl.svg"
+                            alt="shapeI176"
+                            class="maps-shape16"
+                          />
+                          <span class="maps-text41">999K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin17">
+                        <div class="maps-default16">
+                          <img
+                            src="public/external/shapei176-ksp.svg"
+                            alt="shapeI176"
+                            class="maps-shape17"
+                          />
+                          <span class="maps-text42">108K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin18">
+                        <div class="maps-default17">
+                          <img
+                            src="public/external/shapei176-x8x9.svg"
+                            alt="shapeI176"
+                            class="maps-shape18"
+                          />
+                          <span class="maps-text43">101K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin19">
+                        <div class="maps-default18">
+                          <img
+                            src="public/external/shapei176-9kwx.svg"
+                            alt="shapeI176"
+                            class="maps-shape19"
+                          />
+                          <span class="maps-text44">357K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin20">
+                        <div class="maps-default19">
+                          <img
+                            src="public/external/shapei176-c0kk.svg"
+                            alt="shapeI176"
+                            class="maps-shape20"
+                          />
+                          <span class="maps-text45">333K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin21">
+                        <div class="maps-default20">
+                          <img
+                            src="public/external/shapei176-8g5a.svg"
+                            alt="shapeI176"
+                            class="maps-shape21"
+                          />
+                          <span class="maps-text46">407K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin22">
+                        <div class="maps-default21">
+                          <img
+                            src="public/external/shapei176-pyr.svg"
+                            alt="shapeI176"
+                            class="maps-shape22"
+                          />
+                          <span class="maps-text47">407K</span>
+                        </div>
+                      </div>
+                      <div class="maps-mappin23">
+                        <div class="maps-default22">
+                          <img
+                            src="public/external/shapei176-2h9j.svg"
+                            alt="shapeI176"
+                            class="maps-shape23"
+                          />
+                          <span class="maps-text48">121K</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="maps-mapzoom">
+                      <img
+                        src="public/external/rectangle1761-3jii-200w.png"
+                        alt="Rectangle1761"
+                        class="maps-rectangle4"
+                      />
+                      <img
+                        src="public/external/plus1761-xlxf.svg"
+                        alt="plus1761"
+                        class="maps-plus"
+                      />
+                      <img
+                        src="public/external/minus1761-ds5y.svg"
+                        alt="minus1761"
+                        class="maps-minus"
+                      />
+                      <img
+                        src="public/external/seperator1761-el62-200h.png"
+                        alt="seperator1761"
+                        class="maps-seperator"
+                      />
+                    </div>
+                  </div>
+                  <div class="maps-property-card">
+                    <img
+                      src="public/external/union1768-fgc.svg"
+                      alt="Union1768"
+                      class="maps-union"
+                    />
+                    <div class="maps-frame9">
+                      <div class="maps-imageheader">
+                        <div class="maps-frame8">
+                          <div class="maps-badge-primary">
+                            <img
+                              src="public/external/rectangle31771-p95b-200h.png"
+                              alt="Rectangle31771"
+                              class="maps-rectangle3"
+                            />
+                            <span class="maps-text49">best price</span>
+                          </div>
+                        </div>
+                        <img
+                          src="public/external/image21771-wl1a-300w.png"
+                          alt="image21771"
+                          class="maps-image2"
+                        />
+                        <img
+                          src="public/external/image33848-2h0e-300w.png"
+                          alt="image33848"
+                          class="maps-image3"
+                        />
+                      </div>
+                      <div class="maps-frame7">
+                        <div class="maps-frame4">
+                          <span class="maps-text50">40k-150k</span>
+                        </div>
+                        <div class="maps-frame5">
+                          <span class="maps-text51">4 Camas</span>
+                          <img
+                            src="public/external/rectangle21771-guf5-200w.png"
+                            alt="Rectangle21771"
+                            class="maps-rectangle2"
+                          />
+                          <span class="maps-text52">3 Baños</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="maps-footer">
+            <div class="maps-content">
+              <div class="maps-about">
+                <span class="maps-text53">Nosotros</span>
+                <span class="maps-text54">Acerca de nosotros</span>
+                <span class="maps-text55">Colaboracioens</span>
+                <span class="maps-text56">Noticias</span>
+                <span class="maps-text57">Planes</span>
+              </div>
+              <div class="maps-company">
+                <span class="maps-text58">Compañia</span>
+                <span class="maps-text59">Que planes</span>
+                <span class="maps-text60">Blog</span>
+              </div>
+              <div class="maps-support">
+                <span class="maps-text61">soporte</span>
+                <span class="maps-text62">Tu cuenta</span>
+                <span class="maps-text63">Soporte</span>
+                <span class="maps-text64">Calificaciones</span>
+                <span class="maps-text65">Contactanos</span>
+              </div>
+              <div class="maps-newslette">
+                <span class="maps-text66">Suscribete</span>
+                <span class="maps-text67">
+                  Suscríbete a nuestras redes sociales y recibe ofertas
+                  emocionantes.
+                </span>
+                <div class="maps-inputfield">
+                  <img
+                    src="public/external/bg3419-ohf9-200h.png"
+                    alt="Bg3419"
+                    class="maps-bg1"
+                  />
+                  <div class="maps-sendbutton">
+                    <img
+                      src="public/external/bg3419-mie-200h.png"
+                      alt="Bg3419"
+                      class="maps-bg2"
+                    />
+                    <div class="maps-vuesaxoutlinesend1">
+                      <div class="maps-vuesaxoutlinesend2">
+                        <div class="maps-send">
+                          <img
+                            src="public/external/vectori341-gel.svg"
+                            alt="VectorI341"
+                            class="maps-vector4"
+                          />
+                          <img
+                            src="public/external/vectori341-tc8r.svg"
+                            alt="VectorI341"
+                            class="maps-vector5"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="maps-text68">Ingresa tu Correo</span>
+                </div>
+              </div>
+              <div class="maps-logo2">
+                <div class="maps-logo3">
+                  <span class="maps-text69">Vive Bogotá</span>
+                  <img
+                    src="public/external/dot3419-9mh.svg"
+                    alt="Dot3419"
+                    class="maps-dot2"
+                  />
+                </div>
+                <span class="maps-text70">Bogota, Duitama</span>
+                <div class="maps-frame29">
+                  <div class="maps-vuesaxboldfacebook1">
+                    <div class="maps-vuesaxboldfacebook2">
+                      <div class="maps-facebook">
+                        <img
+                          src="public/external/vectori341-dfy4.svg"
+                          alt="VectorI341"
+                          class="maps-vector6"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="maps-vuesaxboldinstagram1">
+                    <div class="maps-vuesaxboldinstagram2">
+                      <div class="maps-instagram">
+                        <img
+                          src="public/external/vectori341-t86b.svg"
+                          alt="VectorI341"
+                          class="maps-vector7"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="maps-vuesaxboldyoutube1">
+                    <div class="maps-vuesaxboldyoutube2">
+                      <div class="maps-youtube">
+                        <img
+                          src="public/external/vectori341-jqnc.svg"
+                          alt="VectorI341"
+                          class="maps-vector8"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
